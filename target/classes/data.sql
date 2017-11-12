@@ -1,0 +1,1 @@
+select * from new_table where userName = 'ivan' and userSurname = 'zalupin';

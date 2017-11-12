@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - mydb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="mydb">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <schema id="5" name="sys"/>
+    <table id="6" parent="1" name="usertable"/>
+    <column id="7" parent="6" name="idUser">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="8" parent="6" name="userName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="9" parent="6" name="userSurname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="10" parent="6" name="phoneNumber">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="11" parent="6" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <index id="12" parent="6" name="idUser_UNIQUE">
+      <columns>idUser</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="13" parent="6" name="PRIMARY">
+      <columns>idUser</columns>
+      <primary>1</primary>
+    </key>
+    <key id="14" parent="6" name="idUser_UNIQUE">
+      <columns>idUser</columns>
+      <underlying-index>idUser_UNIQUE</underlying-index>
+    </key>
+  </database-model>
+</dataSource>
