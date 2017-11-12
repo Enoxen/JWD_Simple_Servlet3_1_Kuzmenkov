@@ -31,9 +31,9 @@ public class FrontController extends HttpServlet {
         response.setContentType("text/html");
         String name = request.getParameter("name");
         String surname = request.getParameter("surname");
-        User user;
+
         try {
-            user = userService.findUser(name, surname);
+            User user = userService.findUser(name, surname);
             request.setAttribute("user", user);
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/user.jsp");
             requestDispatcher.forward(request, response);
