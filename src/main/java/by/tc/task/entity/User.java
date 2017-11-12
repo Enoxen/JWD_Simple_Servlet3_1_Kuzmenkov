@@ -6,12 +6,12 @@ import java.io.Serializable;
  * Created by Y50-70 on 12.11.2017.
  */
 public class User implements Serializable {
-    String name;
-    String surname;
-    String phoneNumber;
-    String email;
+    private String name;
+    private String surname;
+    private String phoneNumber;
+    private String email;
 
-    public User(){};
+    public User(){}
 
     public String getName() {
         return name;
