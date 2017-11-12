@@ -25,7 +25,9 @@
     </c:if>
 
     <c:if test="${requestScope.user.name == null}">
-        <c:out value="User nor found" />
+        <c:out value="User not found" />
     </c:if>
+    <br>
+    <a href="../index.jsp">Return to the start page</a>
 </body>
 </html>
