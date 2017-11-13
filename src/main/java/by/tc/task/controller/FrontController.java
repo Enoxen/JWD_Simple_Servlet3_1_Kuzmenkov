@@ -29,18 +29,18 @@ public class FrontController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        String name = request.getParameter("name");
-        String surname = request.getParameter("surname");
+        String name = request.getParameter("name").trim();
+        String surname = request.getParameter("surname").trim();
+            try {
+                User user = userService.findUser(name, surname);
+                request.setAttribute("user", user);
+                RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/user.jsp");
+                requestDispatcher.forward(request, response);
+            }
+            catch (ServiceException e){
+                PrintWriter out = response.getWriter();
+                out.println(e.getMessage());
+            }
+        }
 
-        try {
-            User user = userService.findUser(name, surname);
-            request.setAttribute("user", user);
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/user.jsp");
-            requestDispatcher.forward(request, response);
-        }
-        catch (ServiceException e){
-            PrintWriter out = response.getWriter();
-            out.println(e.getMessage());
-        }
     }
-}
