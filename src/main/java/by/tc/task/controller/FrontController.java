@@ -1,7 +1,7 @@
 package by.tc.task.controller;
 
 import by.tc.task.entity.User;
-import by.tc.task.exceptions.ServiceException;
+import by.tc.task.exception.ServiceException;
 import by.tc.task.service.ServiceFactory;
 import by.tc.task.service.UserService;
 import javax.servlet.RequestDispatcher;
