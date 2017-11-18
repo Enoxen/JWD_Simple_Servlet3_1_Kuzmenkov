@@ -6,8 +6,8 @@ import static by.tc.task.dao.constants.PreparedStatements.*;
 
 import static  by.tc.task.dao.constants.ResponseFromDb.*;
 import by.tc.task.entity.User;
-import by.tc.task.exceptions.DAOException;
-import by.tc.task.exceptions.RequestToDbException;
+import by.tc.task.exception.DAOException;
+import by.tc.task.exception.RequestToDbException;
 
 import java.sql.*;
 

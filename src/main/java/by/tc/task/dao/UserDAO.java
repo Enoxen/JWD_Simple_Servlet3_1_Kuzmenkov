@@ -1,7 +1,7 @@
 package by.tc.task.dao;
 
 import by.tc.task.entity.User;
-import by.tc.task.exceptions.DAOException;
+import by.tc.task.exception.DAOException;
 
 /**
  * Created by Y50-70 on 12.11.2017.
