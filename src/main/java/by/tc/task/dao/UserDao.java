@@ -6,6 +6,6 @@ import by.tc.task.exception.DAOException;
 /**
  * Created by Y50-70 on 12.11.2017.
  */
-public interface UserDAO {
+public interface UserDao {
     User findUser(String name, String surname)throws DAOException;
 }
