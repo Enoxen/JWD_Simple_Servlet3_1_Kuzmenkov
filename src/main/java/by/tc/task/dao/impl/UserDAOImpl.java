@@ -1,8 +1,8 @@
 package by.tc.task.dao.impl;
 
 import by.tc.task.dao.UserDAO;
-import static by.tc.task.dao.constants.ConnectionConstants.*;
-import static by.tc.task.dao.constants.PreparedStatements.*;
+import static by.tc.task.dao.constants.ConnectionConstant.*;
+import static by.tc.task.dao.constants.PreparedStatement.*;
 
 import static  by.tc.task.dao.constants.ResponseFromDb.*;
 import by.tc.task.entity.User;
