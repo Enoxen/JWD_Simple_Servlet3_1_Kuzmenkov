@@ -1,6 +1,6 @@
 package by.tc.task.dao.impl;
 
-import by.tc.task.dao.UserDao;
+import by.tc.task.dao.UserDAO;
 import static by.tc.task.dao.constants.ConnectionConstant.*;
 import static by.tc.task.dao.constants.PreparedStatement.*;
 
@@ -14,7 +14,7 @@ import java.sql.*;
 /**
  * Created by Y50-70 on 12.11.2017.
  */
-public class UserDaoImpl implements UserDao {
+public class UserDAOImpl implements UserDAO {
 
 
     @Override

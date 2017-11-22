@@ -4,9 +4,9 @@
     <list default="true" id="a09aba2a-20a3-4296-ba59-4aa63321fa6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/service/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java" />
     </list>
     <ignored path="simpleservlet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
+      <file leaf-file-name="DAOFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -145,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java">
+      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/controller/FrontValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/exception/RequestToDbException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/exception/DAOException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/service/UserService.java" />
@@ -240,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/exception/ServiceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -1205,7 +1205,7 @@
       <workItem from="1511214518742" duration="2642000" />
       <workItem from="1511287530887" duration="1671000" />
       <workItem from="1511368107978" duration="1385000" />
-      <workItem from="1511371594870" duration="662000" />
+      <workItem from="1511371594870" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="woops">
       <created>1511006440490</created>
@@ -1249,11 +1249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511368393533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="woops 1.4">
+      <created>1511372265908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511372265908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66831000" />
+    <option name="totallyTimeSpent" value="67160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,7 +1273,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1288,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557465" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1316,7 +1323,8 @@
     <MESSAGE value="woops 1.1" />
     <MESSAGE value="woops 1.2" />
     <MESSAGE value="woops 1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="woops 1.3" />
+    <MESSAGE value="woops 1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="woops 1.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1353,7 +1361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -1377,7 +1385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1434,7 +1442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -1475,14 +1483,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="18" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
@@ -1532,14 +1540,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="18" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
@@ -1589,14 +1597,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="18" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
@@ -1772,34 +1780,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/tc/task/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
