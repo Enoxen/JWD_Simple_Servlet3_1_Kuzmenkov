@@ -14,14 +14,14 @@ public class UserServiceImpl implements UserService {
     public UserServiceImpl(){}
     @Override
     public User findUser(String name, String surname) throws ServiceException{
-
+// куда, куда ты поделавась.... валидация из сервисов слежала
         DAOFactory factory = DAOFactory.getInstance();
         UserDAO userDAO = factory.getUserDAO();
         try {
             return userDAO.findUser(name, surname);
         }
         catch (DAOException e){
-            throw new ServiceException(e.getMessage(),e);
+            throw new ServiceException(e.getMessage(),e);// см аналогичную ошибку в дао
         }
 
 
