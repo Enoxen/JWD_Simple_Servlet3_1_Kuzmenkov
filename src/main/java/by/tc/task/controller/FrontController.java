@@ -29,6 +29,7 @@ public class FrontController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
+        // диагноз - множественные неименованные константные строки
         String name = request.getParameter("name").trim();
         String surname = request.getParameter("surname").trim();
             try {
@@ -39,8 +40,8 @@ public class FrontController extends HttpServlet {
             }
             catch (ServiceException e){
                 PrintWriter out = response.getWriter();
-                out.println(e.getMessage());
-            }
+                out.println(e.getMessage());// пользователю мы никогда не отправляем внутренние сообщение приложения, а уж тем более сообщения об ошибках
+            }//простой forward на страницу ошибк здесь был бы уместнее
         }
 
     }
